@@ -4,12 +4,6 @@ Un système d'alerte de repli optimisé pour serveur Garry's Mod (DarkRP/StarWar
 
 🔗 **Dépôt GitHub** : [https://github.com/Co2alpes/addonReplieSwtorErc](https://github.com/Co2alpes/addonReplieSwtorErc)
 
-## 📋 Fonctionnalités
-
-*   **Optimisation Réseau** : Utilise `net` pour n'envoyer l'information qu'aux joueurs concernés (ex: Les Siths ne voient pas l'alerte des Clones).
-*   **Visuel Immersif** : HUD minimaliste clignotant avec typographie style Sci-Fi.
-*   **Sonore** : Sons d'alarme configurables par faction.
-*   **Configuration Facile** : Fichier unique pour gérer les jobs, couleurs et commandes.
 
 ## 🛠️ Installation
 
@@ -38,7 +32,7 @@ Vous **DEVEZ** configurer les Jobs (Teams) pour que l'addon fonctionne avec votr
     
     -- Jobs qui VOIENT l'alerte (Tous les soldats)
     teams = {
-        TEAM_STORMTROOPER,
+        
         TEAM_SITH,
         TEAM_OFFICIER -- Ajoutez vos vraies variables de jobs ici !
     },
@@ -51,7 +45,7 @@ Vous **DEVEZ** configurer les Jobs (Teams) pour que l'addon fonctionne avec votr
 },
 ```
 
-*   **Remplacer `TEAM_XXX`** : Assurez-vous d'utiliser les noms de variables définis dans votre `jobs.lua` DarkRP (ex: `TEAM_501ST`, `TEAM_JEDI`).
+*   **Remplacer `TEAM_XXX`** : Assurez-vous d'utiliser les noms de variables définis dans votre `jobs.lua` DarkRP (ex: `TEAM_ST`, `TEAM_JEDI`).
 *   **Ajouter une faction** : Copiez-collez un bloc faction entier et changez la clé (ex: `["mandalorien"]`).
 
 ## 🎮 Utilisation
