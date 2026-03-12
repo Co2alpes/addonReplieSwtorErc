@@ -1,4 +1,4 @@
-include("sh_config.lua")
+-- Configuration chargée automatiquement via lua/autorun/sh_repli_config.lua
 
 -- Variables locales pour l'etat de l'alerte
 local activeAlert = nil

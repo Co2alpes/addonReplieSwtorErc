@@ -1,9 +1,5 @@
--- Charger la configuration
-AddCSLuaFile("sh_config.lua")
-include("sh_config.lua")
-
--- Charger le fichier client pour que les clients le telechargent
-AddCSLuaFile("cl_init.lua")
+-- Configuration chargée automatiquement via lua/autorun/sh_repli_config.lua
+-- Client init chargé automatiquement via lua/autorun/client/cl_repli.lua
 
 -- Initialisation du reseau
 util.AddNetworkString("REPLI_TriggerAlert")
